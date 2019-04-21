@@ -99,6 +99,7 @@ a:hover {
 	white-space:nowrap;
 	overflow-x:auto;
 	overflow-y: visible;
+	height: 456px;
 }
 .list-inlinescroll li{
 	display: inline;
@@ -107,6 +108,7 @@ a:hover {
 .list-inlinescroll img{
 	height: 450px;
 }
+
 #introduction p{
 	margin-bottom: 40px;
 }
