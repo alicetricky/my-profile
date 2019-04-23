@@ -73,6 +73,7 @@ a:hover {
     border-style: solid;
     border-color: rgb(73,195,221);
     border-width: 2px;
+    transition: 0.3s ease;
 }
 .btn-blue:hover{
 	background-color: rgb(73,195,221);
@@ -104,9 +105,34 @@ a:hover {
 .list-inlinescroll li{
 	display: inline;
 	padding: 1px;
+	position: relative;
+}
+
+.list-inlinescroll li:hover .text-center{
+	opacity: 1;
+}
+.list-inlinescroll li:hover img{
+	outline: 3px solid rgb(73,195,221);
+	outline-offset: -3px;
+	opacity: 1;
+	cursor: pointer;
+}
+input:checked + img{
+	outline: 3px solid rgb(73,195,221);
+	outline-offset: -3px;
+	opacity: 1;
 }
 .list-inlinescroll img{
 	height: 450px;
+	transition: 0.1s ease;
+}
+input[type="checkbox"] {
+    display: none;
+}
+
+
+.list-inlinescroll li:hover #tower{
+	opacity: 1;
 }
 
 #introduction p{
