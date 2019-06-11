@@ -149,9 +149,18 @@ input:checked + img{
 	outline-offset: -6px;
 }
 
+.logo img{
+  width: 20%;
+}
+
+.logo img:hover{
+  opacity: 0.8;
+}
+
 #introduction p{
 	margin-bottom: 40px;
 }
+
 
 
 
